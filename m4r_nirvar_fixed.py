@@ -1256,7 +1256,7 @@ class MMSB:
         self.Y = Y
 
         self.optimize_rho = False
-        self.max_iter = 30
+        self.max_iter = 500
         #self.ll = 0.0
 
         #variational parameters
@@ -1596,7 +1596,7 @@ print("Sharpe Ratio:", sharpe_ratio1)
 mae1 = calculate_mae(predictions, actual_values)
 print("Mean Absolute Error (MAE):", mae1)
 
-print("对比：")
+
 print("Sharpe Ratio:", sharpe_ratio)
 print("Mean Absolute Error (MAE):", mae)
 
